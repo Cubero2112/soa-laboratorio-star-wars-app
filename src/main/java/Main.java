@@ -21,6 +21,8 @@ public class Main {
                 System.out.println(response.getStatusLine().getStatusCode());   // 200
                 System.out.println(response.getStatusLine().getReasonPhrase()); // OK
                 System.out.println(response.getStatusLine().toString());        // HTTP/1.1 200 OK
+                System.out.println("Hello World!");
+
 
                 HttpEntity entity = response.getEntity();
                 if (entity != null) {
